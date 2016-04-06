@@ -21,7 +21,7 @@
             </objects>
             <point key="canvasLocation" x="-2971" y="-84"/>
         </scene>
-        <!--View Controller-->
+        <!--Patterns-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Patterns" customModuleProvider="target" sceneMemberID="viewController">
@@ -46,7 +46,9 @@
                             <constraint firstItem="VR1-fv-gnD" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="p6W-34-Muq"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="cjy-pi-S7k"/>
+                    <navigationItem key="navigationItem" title="Patterns" id="cjy-pi-S7k">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="dvL-lz-cS6"/>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

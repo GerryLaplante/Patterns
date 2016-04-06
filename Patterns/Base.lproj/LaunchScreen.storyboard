@@ -16,12 +16,42 @@
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="749" verticalCompressionResistancePriority="749" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7qn-3N-W3A">
+                                <rect key="frame" x="20" y="284" width="560" height="32"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Patterns">
+                                        <attributes>
+                                            <color key="NSColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <font key="NSFont" size="33" name="HelveticaNeue"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2016 Copyright(c) Gerry Laplante" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pMn-5z-tsK">
+                                <rect key="frame" x="0.0" y="559" width="600" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="7qn-3N-W3A" secondAttribute="trailing" constant="20" id="6L5-44-7lI"/>
+                            <constraint firstItem="pMn-5z-tsK" firstAttribute="top" secondItem="7qn-3N-W3A" secondAttribute="bottom" constant="243" id="6ue-GL-TqM"/>
+                            <constraint firstAttribute="trailing" secondItem="pMn-5z-tsK" secondAttribute="trailing" id="8k9-Ks-HnO"/>
+                            <constraint firstItem="7qn-3N-W3A" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" constant="20" id="A03-hQ-UBb"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="pMn-5z-tsK" secondAttribute="bottom" constant="20" id="F1p-sb-sBt"/>
+                            <constraint firstItem="pMn-5z-tsK" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="KNC-JW-fAb"/>
+                            <constraint firstItem="7qn-3N-W3A" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="264" id="Qrd-ca-82Z"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="53" y="375"/>
+            <point key="canvasLocation" x="181" y="412"/>
         </scene>
     </scenes>
 </document>
