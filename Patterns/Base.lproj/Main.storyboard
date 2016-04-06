@@ -49,6 +49,9 @@
                     <navigationItem key="navigationItem" title="Patterns" id="cjy-pi-S7k">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="dvL-lz-cS6"/>
                     </navigationItem>
+                    <connections>
+                        <outlet property="tvPatterns" destination="VR1-fv-gnD" id="6ox-BV-4Lj"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
