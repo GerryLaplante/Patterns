@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE13E1851CB6BB6400C2D783 /* dress pattern front.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE13E1811CB6BB6400C2D783 /* dress pattern front.jpg */; };
+		CE13E1861CB6BB6400C2D783 /* corset pattern front.gif in Resources */ = {isa = PBXBuildFile; fileRef = CE13E1821CB6BB6400C2D783 /* corset pattern front.gif */; };
+		CE13E1871CB6BB6400C2D783 /* jersey pattern front.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE13E1831CB6BB6400C2D783 /* jersey pattern front.jpg */; };
+		CE13E1881CB6BB6400C2D783 /* jersey pattern.gif in Resources */ = {isa = PBXBuildFile; fileRef = CE13E1841CB6BB6400C2D783 /* jersey pattern.gif */; };
 		CE2D0BCB1CB5B4FB000877D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2D0BCA1CB5B4FB000877D4 /* AppDelegate.swift */; };
 		CE2D0BCD1CB5B4FB000877D4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2D0BCC1CB5B4FB000877D4 /* ViewController.swift */; };
 		CE2D0BD01CB5B4FB000877D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE2D0BCE1CB5B4FB000877D4 /* Main.storyboard */; };
@@ -36,6 +40,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CE13E1811CB6BB6400C2D783 /* dress pattern front.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "dress pattern front.jpg"; sourceTree = SOURCE_ROOT; };
+		CE13E1821CB6BB6400C2D783 /* corset pattern front.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "corset pattern front.gif"; sourceTree = SOURCE_ROOT; };
+		CE13E1831CB6BB6400C2D783 /* jersey pattern front.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "jersey pattern front.jpg"; sourceTree = SOURCE_ROOT; };
+		CE13E1841CB6BB6400C2D783 /* jersey pattern.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "jersey pattern.gif"; sourceTree = SOURCE_ROOT; };
 		CE2D0BC71CB5B4FB000877D4 /* Patterns.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Patterns.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE2D0BCA1CB5B4FB000877D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE2D0BCC1CB5B4FB000877D4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -101,6 +109,10 @@
 		CE2D0BC91CB5B4FB000877D4 /* Patterns */ = {
 			isa = PBXGroup;
 			children = (
+				CE13E1811CB6BB6400C2D783 /* dress pattern front.jpg */,
+				CE13E1821CB6BB6400C2D783 /* corset pattern front.gif */,
+				CE13E1831CB6BB6400C2D783 /* jersey pattern front.jpg */,
+				CE13E1841CB6BB6400C2D783 /* jersey pattern.gif */,
 				CE2D0BCA1CB5B4FB000877D4 /* AppDelegate.swift */,
 				CE2D0BCC1CB5B4FB000877D4 /* ViewController.swift */,
 				CE5B1FBB1CB5E0BF008984EB /* Pattern.swift */,
@@ -235,8 +247,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE13E1861CB6BB6400C2D783 /* corset pattern front.gif in Resources */,
 				CE2D0BD81CB5B4FC000877D4 /* LaunchScreen.storyboard in Resources */,
+				CE13E1881CB6BB6400C2D783 /* jersey pattern.gif in Resources */,
 				CE2D0BD51CB5B4FB000877D4 /* Assets.xcassets in Resources */,
+				CE13E1851CB6BB6400C2D783 /* dress pattern front.jpg in Resources */,
+				CE13E1871CB6BB6400C2D783 /* jersey pattern front.jpg in Resources */,
 				CE2D0BD01CB5B4FB000877D4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
